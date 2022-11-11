@@ -12,7 +12,7 @@ let blockColor = "#ffbb00";
 
 // Game Loop
 function drawGame(){
-    requestAnimationFrame(drawGame)
+    requestAnimationFrame(drawGame);
     clearScreen();
     inputs();
     boundaryCheck();
